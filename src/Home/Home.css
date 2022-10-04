@@ -1,19 +1,13 @@
 /*Que el home tenga en el menu un banner que sea bonito diseño libre Que salga tu foto o avatar y tu descripcion por ultimo RETO un nuevo componente que se llame footer el footer puede tener tus redes sociales o de artistas*/
 .banner{
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/movilesll-75a48.appspot.com/o/ladygaga.webp?alt=media&token=d76463c0-acb8-4f81-9b54-af8350e7a4ff");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/movilesll-75a48.appspot.com/o/rock2.jpg?alt=media&token=77e46e1a-c661-40c0-a8a1-874b7ae845e7");
     background-position: top center;
     background-size: cover;
-    padding: 15% 20% 50% 20%;
-}
-
-.foto{
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/movilesll-75a48.appspot.com/o/ladygaga.webp?alt=media&token=d76463c0-acb8-4f81-9b54-af8350e7a4ff");
-    background-position: top center;
-    background-size: cover;
-    padding: 15% 20% 50% 20%;
+    padding: 10% 25% 40% 25%;
 }
 
 .descripcion{
     font-family: 'Delius', cursive;
     font-family: 'Just Another Hand', cursive;
 }
+/*<img src="https://firebasestorage.googleapis.com/v0/b/movilesll-75a48.appspot.com/o/Karen.jpg?alt=media&token=cf457808-de59-420b-9d3c-dcc4a4e03ce1" className="w-100"/>*/

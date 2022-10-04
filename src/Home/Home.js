@@ -1,21 +1,34 @@
 import './Home.css'
 
+import {Submenu} from '../Submenu/Submenu.js' 
+import {Footer} from '../Footer/Footer.js'
+
 export function Home(){
+    let descripcionBanda="The Beatles, también conocida en el mundo hispano como los Beatles, fue una banda de rock británica formada en Liverpool durante los años 1960, estando integrada desde 1962 a su separación en 1970 por John Lennon, Paul McCartney, George Harrison y Ringo Starr."
+
     return(
         <>
-            <div class="banner">
+            <div className="banner">
 
             </div>
-           <div class="container mt-5">
-            <div class="row">
-                <div class="col-8">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/movilesll-75a48.appspot.com/o/ladygaga.webp?alt=media&token=d76463c0-acb8-4f81-9b54-af8350e7a4ff" class="w-100" height="400"/>
-                </div>
-                <div class="col-4">
-                    <p class="descripcion">jgjhklvjkfjjfdbhbhjfahfbvyhafhrahjfthgdfhjhjghjfafhjgdhjf</p>
-                </div>
+        
+           <div className="container mt-3">
+             <div className="row">
+                    <div className="col-12">
+                            <h1 className='text-center'>The Beatles</h1>
+                            <p className="text-center">{descripcionBanda}</p>
+                            <div className="col-2">
+                            </div>
+                           
+                                
+                    </div>
+             </div>
+           </div>
+            <div>
+                    <Submenu></Submenu>
             </div>
-
+           <div>
+                <Footer></Footer>
            </div>
             
            
